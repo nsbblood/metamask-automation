@@ -1,13 +1,14 @@
-## 🔧 MetaMask Download Automation Test
+# 🦊 MetaMask Automation Test (Selenium + Pytest + POM)
 
-This is a basic automated test written in Python using Selenium and Pytest. It simulates downloading MetaMask by:
+This repository contains an automated test that simulates downloading MetaMask from [https://metamask.io/download](https://metamask.io/download) using Selenium and Pytest with a Page Object Model (POM) structure.
 
-1. Navigating to the download page
-2. Clicking the download button
-3. Waiting for 10 seconds to simulate the process
+## ✅ Features
 
-### ✅ How to Run
+- Page Object Model (POM)
+- Pytest fixtures
+- Selenium automation
+- Waits between actions
+- Simulated download flow
+- `.env` and `.gitignore` cleanup
 
-```bash
-pip install -r requirements.txt
-pytest
+## 📂 Structure
